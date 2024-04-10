@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main_cards{
+    background-color: green;
+
+}
+.container{
+    background-color: purple;
+    max-width: 1340px;
+    margin: 0 auto;
+  
+}
