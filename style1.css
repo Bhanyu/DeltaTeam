@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    box-sizing: border-box;
+}
+.content-title{
+    font-family: "Roboto Slab", serif;
+    font-weight: 55px;
+}
+.content-box{
+    font-family: "Roboto", serif;
+}
+.paragraph{
+    font-size: 25px ;
+}
+.title{
+    font-size: 25px;
+    color: #1E4681;
+}
