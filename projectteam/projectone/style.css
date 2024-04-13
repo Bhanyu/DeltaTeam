@@ -48,7 +48,7 @@
 }
 .footdiv2 {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -121,7 +121,7 @@ h3 {
   }
   .footdiv2 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     margin-bottom: 0px;
     padding-bottom: 0px;
