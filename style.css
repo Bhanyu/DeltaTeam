@@ -21,7 +21,12 @@ body{
     align-items: center;
     margin-top: 40px;
 }
-
+.image{
+    max-width: 100%;
+}
+.profile{
+    max-width: 100%;
+}
 p{
     font-size: 20px;
     font-family: "Roboto", sans-serif;
@@ -40,4 +45,76 @@ h3{
 h2{
     font-size: 55px;
     font-family: "Roboto Slab", serif;
+}
+@media (min-width:601px) and (max-width:991px) {
+    .container{
+        max-width: 100%;
+        padding: 30px 30px 0;
+       
+    }
+    .content-box{
+        border-radius: 30px;
+        background-color:white;
+        /* max-width: 760px; */
+        /* max-width: 100%; */
+        padding: 20px 51px 20px 40px;
+
+   }
+   h2{
+    font-size: 32px;
+   }
+   h3{
+    font-size: 17px;
+   }
+   p{
+    font-size: 12px;
+   }
+   .image-description{
+    
+    margin-top: 20px;
+}
+.image{
+    max-width: 35%;
+
+}
+.profile{
+    max-width: 100%;
+}
+}
+@media (min-width:300px) and (max-width:600px) {
+    .container{
+        max-width: 100%;
+        padding: 30px 30px 0;
+       
+    }
+    .content-box{
+        border-radius: 30px;
+        background-color:white;
+        /* max-width: 760px; */
+        /* max-width: 100%; */
+        padding: 15px 27px 18px 30px;
+
+   }
+   h2{
+    font-size: 26px;
+   }
+   h3{
+    font-size: 14px;
+   }
+   p{
+    font-size: 10px;
+   }
+   .image-description{
+    
+    margin-top: 20px;
+}
+.image{
+    max-width: 30%;
+}
+.profile{
+    max-width: 100%;
+}
+.facebook{
+    width: 20px;
+}
 }
