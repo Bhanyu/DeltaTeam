@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.content-title{
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    padding-left: 85px;
+}
+.content-box{
+    font-family: "Roboto", serif;
+      display: flex;
+     margin-top: 100px;
+     padding-left: 100px;
+      
+}
+.content-box1 , .content-box2 ,.content-box3{
+    max-width: 30%; 
+    margin: 0 80px 0 0;
+
+}
+.paragraph{
+    font-size: 18px ;
+    line-height: 130%;
+    width: 223px;
+    margin-top: 10px;
+}
+.title{
+    font-size: 25px;
+    color: #1E4681;
+}
+@media (min-width:601px) and (max-width:991px) {
+    
+    .content-title{
+        font-family: "Roboto Slab", serif;
+        font-size: 32px;
+        padding-left: 80px;
+    } 
+    .title{
+        font-size: 15px;
+        color: #1E4681;
+    }
+    .paragraph{
+        font-size: 11px ;
+        line-height: 130%;
+        width: 160px;
+        margin-top: 10px;
+    }
+    .content-box{
+        padding-left: 80px;
+    }
+    .content-box1 , .content-box2 ,.content-box3{
+        max-width: 30%; 
+        margin: 0 45px 0 0;
+    
+    }
+    
+  
+}
+@media (min-width:300px) and (max-width:600px) {
+    
+    .content-title{
+        font-family: "Roboto Slab", serif;
+        font-size: 24px;
+        padding-left: 45px;
+    } 
+    .title{
+        font-size: 12px;
+        color: #1E4681;
+    }
+    .paragraph{
+        font-size: 10px ;
+        line-height: 130%;
+        width: 170px;
+        margin-top: 10px;
+    }
+    .content-box{
+        font-family: "Roboto", serif;
+          display: flex;
+          flex-direction: column;
+         margin-top: 30px;
+         padding-left: 50px;
+          
+    }
+    .content-box1 , .content-box2 ,.content-box3{
+        max-width: 30%; 
+        margin: 0 80px 0 0;
+        margin-top: 30px;
+    }
+    
+}
