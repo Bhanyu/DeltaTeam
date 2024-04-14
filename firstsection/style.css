@@ -67,7 +67,7 @@ h1{
     font-size: 20px;
     font-family: "Roboto", sans-serif;
   /* max-width: 73%; */
-
+ /* width: 414px; */
   line-height: 30px;
   font-weight: 400;
   padding-right: 148px;
@@ -75,7 +75,7 @@ h1{
 }
 .main-content{
     max-width: 45%;
- 
+    
 }
 .blue-box{
     background-color: #1E4681;
@@ -448,5 +448,48 @@ line-height: 150%;
         margin-top: 50px;
       padding-bottom: 0px;
 }
+
+}
+@media (min-width:990px) {
+
+h1{
+width: 628px;
+
+}
+
+
+
+
+
+
+.default{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  /* max-width: 73%; */
+ width: 414px;
+  line-height: 30px;
+  font-weight: 400;
+  padding-right: 0px;
+  
+}
+
+.icons{
+    display: flex;
+    margin-bottom: 40px;
+    
+    width: 628px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+   margin: 0 20px 0 0;
+   
+}
+.desc{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
 
 }
